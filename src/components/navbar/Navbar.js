@@ -44,9 +44,9 @@ function Navbar() {
 
 
     const showSraerchInput = () => {
-        if (showClick.value == false) {
+        if (showClick.value === false) {
             dispatch(showInput(true))
-        } else if (showClick.value == true) {
+        } else if (showClick.value === true) {
             dispatch(showInput(false))
         }
     }
