@@ -12,6 +12,12 @@
 }
 
 /* ----- Fetched item Responsive(area)----- */
+@media screen and (max-width: 457px) {
+    .page-Area {
+        justify-content: center;
+    }
+}
+
 @media screen and (max-width: 979px) {
     .page-Area {
         grid-template-columns: 1fr 1fr 1fr;
