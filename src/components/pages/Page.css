@@ -7,6 +7,10 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+.singleVitem {
+    margin: 8px;
+}
+
 /* ----- Fetched item Responsive(area)----- */
 @media screen and (max-width: 979px) {
     .page-Area {
@@ -22,6 +26,7 @@
 
 @media screen and (max-width: 420px) {
     .page-Area {
+        width: 97%;
         grid-template-columns: 1fr;
     }
 }
