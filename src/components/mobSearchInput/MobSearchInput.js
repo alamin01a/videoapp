@@ -19,7 +19,7 @@ function MobSearchInput() {
   }
 
   const searchFunc = () => {
-    if (mobileInputVal.current.value == null || mobileInputVal.current.value == "") {
+    if (mobileInputVal.current.value === null || mobileInputVal.current.value === "") {
       return null
     } else {
       dispatch(searchItemValue(mobileInputVal.current.value))

@@ -13,7 +13,7 @@ function CatagoryPage(props) {
     const filteredCatagoryFunc = () => {
         props.setProgress(5)
         const filteredCatagoryItem = fetchedArray.videoArray.filter((ele) => {
-            if (searchWord.value == "" || searchWord.value == null) {
+            if (searchWord.value === "" || searchWord.value === null) {
                 return;
             } else if (ele.category.toLowerCase().includes(searchWord.value.toLowerCase())) {
                 return ele;

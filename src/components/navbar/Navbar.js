@@ -32,7 +32,7 @@ function Navbar() {
 
     const navSearchFunc = () => {
         console.log(inputVal.current.value);
-        if (inputVal.current.value == null || inputVal.current.value == "") {
+        if (inputVal.current.value === null || inputVal.current.value === "") {
             return;
         } else {
             dispatch(searchItemValue(inputVal.current.value))
