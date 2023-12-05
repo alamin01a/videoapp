@@ -1,0 +1,18 @@
+.footer {
+    height: 2rem;
+    border-top: 1px solid #454d5e;
+    background-color: rgba(40, 39, 39, 0.536);
+}
+
+p {
+    color: white;
+    margin-bottom: 0rem;
+}
+
+.copyriteSection {
+    height: 3rem;
+    border-top: 1px solid #454d5e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

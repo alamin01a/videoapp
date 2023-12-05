@@ -1,0 +1,14 @@
+.handleBtn {
+    width: 97%;
+    display: flex;
+    margin: 0px auto 16px auto;
+    justify-content: space-between;
+    position: relative;
+    top: -3px;
+}
+
+@media screen and (max-width: 419px) {
+    .handleBtn {
+        justify-content: space-around;
+    }
+}

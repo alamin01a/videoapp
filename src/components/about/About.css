@@ -1,0 +1,15 @@
+.mainDivabout {
+    min-height: 82vh;
+    width: 90vw;
+    margin: auto;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-Section p{
+    position: relative;
+    top: -30px;
+    font-size: xx-large;
+}

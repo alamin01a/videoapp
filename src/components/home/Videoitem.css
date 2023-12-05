@@ -1,0 +1,160 @@
+@media screen and (max-width: 1176px) {
+    .custom-img {
+        height: 9rem;
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    .custom-img {
+        height: 8rem;
+    }
+}
+
+@media screen and (max-width: 1044px) {
+    .custom-img {
+        height: 7rem;
+    }
+}
+
+@media screen and (max-width: 979px) {
+    .custom-img {
+        height: 10rem;
+    }
+}
+
+@media screen and (max-width: 914px) {
+    .custom-img {
+        height: 9rem;
+    }
+}
+
+
+@media screen and (max-width: 833px) {
+    .custom-img {
+        height: 8rem;
+    }
+}
+
+
+@media screen and (max-width: 783px) {
+    .custom-img {
+        height: 7rem;
+    }
+}
+
+@media screen and (max-width: 686px) {
+    .custom-img {
+        height: 6rem;
+    }
+}
+
+@media screen and (max-width: 631px) {
+    .custom-card {
+        width: unset;
+        height: unset;
+    }
+
+    .custom-img {
+        height: 9rem;
+    }
+
+}
+
+@media screen and (max-width: 556px) {
+    .custom-img {
+        height: 8rem;
+    }
+}
+
+@media screen and (max-width: 497px) {
+    .custom-img {
+        height: 7rem;
+    }
+}
+
+@media screen and (max-width: 441px) {
+    .custom-img {
+        height: 6rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .custom-card {
+        width: 25rem;
+
+    }
+
+    .custom-img {
+        height: 13rem;
+    }
+}
+
+@media screen and (max-width: 411px) {
+    .custom-card {
+        width: 24rem;
+
+    }
+
+}
+
+@media screen and (max-width: 389px) {
+    .custom-card {
+        width: 23rem;
+
+    }
+
+    .custom-img {
+        height: 12rem;
+    }
+
+}
+
+@media screen and (max-width: 371px) {
+    .custom-card {
+        width: 22rem;
+
+    }
+
+}
+
+@media screen and (max-width: 357px) {
+    .custom-card {
+        width: 21rem;
+
+    }
+
+    .custom-img {
+        height: 11rem;
+    }
+
+}
+
+@media screen and (max-width: 342px) {
+    .custom-card {
+        width: 20rem;
+
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .custom-card {
+        width: unset;
+
+    }
+
+    .custom-img {
+        height: unset;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    .custom-card {
+        width: 16rem;
+
+    }
+
+    .custom-img {
+        height: 9rem;
+    }
+}

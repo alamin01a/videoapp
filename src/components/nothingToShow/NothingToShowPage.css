@@ -1,0 +1,26 @@
+.nothingPageArea {
+    width: 90vw;
+    margin: auto;
+    height: 74vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.headingNotFound {
+    font-size: 1.2rem;
+    width: 90vw;
+    margin: auto;
+}
+
+.notFoundcard {
+    position: relative;
+    top: -22px;
+}
+
+.customh5{
+    position: relative;
+    top: -3px;
+
+}

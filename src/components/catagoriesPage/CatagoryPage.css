@@ -1,0 +1,8 @@
+.catagory-Area {
+    width: 98%;
+    margin: 10px auto;
+    position: relative;
+    top: -8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}

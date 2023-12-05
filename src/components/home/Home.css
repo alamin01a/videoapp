@@ -1,0 +1,187 @@
+.hh {
+    width: 100px;
+    height: 100px;
+}
+
+.area {
+    width: 98%;
+    margin: 10px auto 0px auto;
+    position: relative;
+    top: -8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.nothingColor {
+    color: aliceblue;
+}
+
+.singleVitem {
+    margin: 8px;
+}
+
+.watch-btn {
+    background-color: #4ff3ff;
+    color: black;
+}
+
+.watch-btn:hover {
+    background-color: #4ff3ff;
+    box-shadow: 0 0 10px 0 #4ff3ff;
+}
+
+
+
+
+.handleBtn {
+    width: 97%;
+    display: flex;
+    margin: 0px auto 16px auto;
+    justify-content: space-between;
+    position: relative;
+    top: -2px;
+}
+
+.cus-btn {
+    border: 1px solid whitesmoke;
+}
+
+.inpDiv {
+    width: 95vw;
+    position: absolute;
+    top: -49px;
+    transition: 0.3s ease;
+    margin: 10px auto 0px auto;
+}
+
+.in-css {
+    width: 87%;
+    display: block;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-radius: var(--bs-border-radius);
+    border: var(--bs-border-width) solid var(--bs-border-color);
+
+}
+
+.showInp {
+    position: relative;
+    top: -2px;
+}
+
+
+@media screen and (max-width: 419px) {
+    .handleBtn {
+        justify-content: space-around;
+    }
+}
+
+
+@media screen and (max-width: 582px) {
+    .in-css {
+        width: 86%;
+    }
+
+}
+
+@media screen and (max-width: 536px) {
+    .in-css {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .in-css {
+        width: 83%;
+    }
+
+}
+
+@media screen and (max-width: 457px) {
+    .area {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .in-css {
+        width: 81%;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .in-css {
+        width: 78%;
+    }
+
+}
+
+@media screen and (max-width: 344px) {
+    .in-css {
+        width: 77%;
+    }
+
+}
+
+@media screen and (max-width: 329px) {
+    .in-css {
+        width: 76%;
+    }
+
+}
+
+@media screen and (max-width: 315px) {
+    .in-css {
+        width: 75%;
+    }
+
+}
+
+@media screen and (max-width: 303px) {
+    .in-css {
+        width: 74%;
+    }
+
+}
+
+@media screen and (max-width: 291px) {
+    .in-css {
+        width: 72%;
+    }
+}
+
+@media screen and (max-width: 271px) {
+    .in-css {
+        width: 71%;
+    }
+}
+
+@media screen and (max-width: 261px) {
+    .in-css {
+        width: 70%;
+    }
+}
+
+
+/* ----- Fetched item Responsive(area)----- */
+
+@media screen and (max-width: 979px) {
+    .area {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .area {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .area {
+        grid-template-columns: 1fr;
+    }
+}

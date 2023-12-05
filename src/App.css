@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Noto+Sans:wght@300&family=Noto+Serif&family=Playfair+Display:wght@600&family=Poppins:wght@600&family=Rajdhani:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: rgba(0, 0, 0, 0.88); */
+  background-color: #212529;
+}
+
+.border {
+  border: 2px solid red;
+}
+
+.clr {
+  color: red;
+}
+
+input {
+  outline: none;
+  min-width: unset;
+  max-width: unset;
+  width: unset;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.dis-none {
+  display: none;
+}
+
+.dis-block {
+  display: block;
+}
+
+textarea {
+  outline: none;
+}
+
+/* btn:hover {
+  cursor: pointer;
+} */

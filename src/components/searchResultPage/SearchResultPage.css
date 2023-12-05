@@ -1,0 +1,38 @@
+.searchPageArea {
+    width: 98%;
+    margin: 12px auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: whitesmoke;
+}
+
+.heading {
+    font-size: 1.2rem;
+    position: relative;
+    left: 8px;
+    margin-bottom: 4px;
+}
+
+.fetchedArea {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 979px) {
+    .fetchedArea {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .fetchedArea {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .fetchedArea {
+        grid-template-columns: 1fr;
+    }
+}
