@@ -1,13 +1,23 @@
 .page-Area {
     width: 98%;
-    margin: 10px auto;
+    margin: 10px auto 0px auto;
     position: relative;
     top: -8px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+.singleVitem {
+    margin: 8px;
+}
+
 /* ----- Fetched item Responsive(area)----- */
+@media screen and (max-width: 457px) {
+    .page-Area {
+        justify-content: center;
+    }
+}
+
 @media screen and (max-width: 979px) {
     .page-Area {
         grid-template-columns: 1fr 1fr 1fr;
@@ -22,6 +32,7 @@
 
 @media screen and (max-width: 420px) {
     .page-Area {
+        width: 97%;
         grid-template-columns: 1fr;
     }
 }
