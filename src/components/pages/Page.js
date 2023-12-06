@@ -33,7 +33,6 @@ function Page(props) {
         <>
             <MobSearchInput />
             <div className="page-Area">
-
                 {
                     pageApiArray
                         .map((element) => {

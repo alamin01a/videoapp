@@ -1,7 +1,4 @@
-.hh {
-    width: 100px;
-    height: 100px;
-}
+
 
 .area {
     width: 98%;
@@ -19,19 +16,6 @@
 .singleVitem {
     margin: 8px;
 }
-
-.watch-btn {
-    background-color: #4ff3ff;
-    color: black;
-}
-
-.watch-btn:hover {
-    background-color: #4ff3ff;
-    box-shadow: 0 0 10px 0 #4ff3ff;
-}
-
-
-
 
 .handleBtn {
     width: 97%;
@@ -182,6 +166,7 @@
 
 @media screen and (max-width: 420px) {
     .area {
+        width: 97%;
         grid-template-columns: 1fr;
     }
 }

@@ -59,7 +59,6 @@ function Home(props) {
             {loading && <Loader />}
             <MobSearchInput />
             <div className="area" id='mainArea'>
-
                 {
                     apiarray
                         .map((element) => {

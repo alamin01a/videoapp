@@ -18,7 +18,6 @@ import NothingToShowPage from './components/nothingToShow/NothingToShowPage';
 
 function App() {
   const [progress, setProgress] = useState(0)
-  console.log("APP")
 
   return (
     <>

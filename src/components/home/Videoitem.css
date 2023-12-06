@@ -1,3 +1,14 @@
+.watch-btn {
+    background-color: #4ff3ff;
+    color: black;
+}
+
+.watch-btn:hover {
+    background-color: #4ff3ff;
+    box-shadow: 0 0 10px 0 #4ff3ff;
+}
+
+
 @media screen and (max-width: 1176px) {
     .custom-img {
         height: 9rem;
@@ -80,7 +91,7 @@
 
 @media screen and (max-width: 420px) {
     .custom-card {
-        width: 25rem;
+        width: 99%;
 
     }
 
@@ -89,55 +100,22 @@
     }
 }
 
-@media screen and (max-width: 411px) {
-    .custom-card {
-        width: 24rem;
 
-    }
-
-}
-
-@media screen and (max-width: 389px) {
-    .custom-card {
-        width: 23rem;
-
-    }
-
-    .custom-img {
-        height: 12rem;
-    }
-
-}
-
-@media screen and (max-width: 371px) {
-    .custom-card {
-        width: 22rem;
-
-    }
-
-}
-
-@media screen and (max-width: 357px) {
-    .custom-card {
-        width: 21rem;
-
-    }
-
+@media screen and (max-width: 400px) {
     .custom-img {
         height: 11rem;
     }
 
 }
 
-@media screen and (max-width: 342px) {
-    .custom-card {
-        width: 20rem;
-
+@media screen and (max-width: 340px) {
+    .custom-img {
+        height: 10rem;
     }
 
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
     .custom-card {
         width: unset;
 
@@ -149,11 +127,6 @@
 }
 
 @media screen and (max-width: 290px) {
-    .custom-card {
-        width: 16rem;
-
-    }
-
     .custom-img {
         height: 9rem;
     }
